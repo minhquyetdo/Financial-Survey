@@ -18,7 +18,7 @@ The "Financial survey" is a centralized data management solution built on MongoD
 |:------|-----------:|
 |what-how-why.txt|Data warehouse document|
 |collections-index.pdf|Collections's explanation |
-|erd-model.pdf|Relationship between tables (entities) in database|
+|erd-model.pdf|Relationship between entities in database|
 |create-database.js|Source code for creating collections in the "financeSurvey" Document|
 |business-queries.js|Source code analysis queries|
 |US_Adult_Income.csv|Survey data|
