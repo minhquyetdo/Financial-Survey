@@ -1,0 +1,32 @@
+    What does this data warehouse do?
+    The primary purpose of this data warehouse is to consolidate and centralize your organization's financial data, enabling efficient data processing, storage, and retrieval. It provides a structured environment for storing and managing both transactional and analytical data, allowing you to gain valuable insights and make informed business decisions. Key features and functionalities include:
+
+        Staging Layer: Enables the daily loading of source data, ensuring data integrity and providing a reliable foundation for subsequent processing.
+
+        Core Layer: Houses dimension tables and a fact table, allowing for efficient data organization and retrieval.
+
+        Dimension Tables: Store key attributes such as jobs, relations, education, and nationals, providing a standardized and consistent representation of relevant data.
+
+        Fact Table: Consolidates individual data, tracking essential metrics such as total assets, capital gain and loss, and working hours. It establishes relationships with dimension tables using surrogate and foreign keys, facilitating data analysis and reporting.
+
+    How does this data warehouse work well?
+    This data warehouse leverages MongoDB's powerful features and capabilities to provide a robust and scalable solution for your data management needs. Here's how it excels:
+
+        Flexibility: MongoDB's document-oriented database model allows for flexible and dynamic schema design. This accommodates evolving data requirements and simplifies data integration from diverse sources.
+
+        Performance: MongoDB's high-performance data processing engine ensures efficient querying and aggregation, enabling rapid data retrieval and analysis.
+
+        Scalability: MongoDB's distributed architecture facilitates horizontal scaling, ensuring the data warehouse can handle growing data volumes and increasing user demands.
+
+        Ad-hoc Analytics: The data warehouse structure allows for ad-hoc queries and analytics, empowering your finance team to explore data insights and perform deep-dive analyses as needed.
+
+    Why does it fulfill an organization's requirements?
+    This centralized data warehouse aligns perfectly with your organization's requirements, providing the following benefits:
+
+        Improved Data Accessibility: By consolidating data in a single location, the data warehouse simplifies data access, ensuring that authorized users can quickly retrieve and analyze the information they need. This enhances data-driven decision-making across various departments, including finance, operations, and executive management.
+
+        Enhanced Data Quality and Consistency: The use of dimension tables with surrogate and foreign keys ensures data integrity and consistency. It minimizes data duplication and allows for easy updates or modifications, resulting in accurate and reliable reporting.
+
+        Streamlined Data Processing: The ETL workflow, executed within MongoDB's powerful engine, automates data transformation and loading processes. This streamlines data processing, reduces manual efforts, and improves overall operational efficiency.
+        
+        Scalable and Future-Proof: MongoDB's scalability and flexibility empower the data warehouse to handle growing data volumes and accommodate future data requirements. This ensures that the solution can scale alongside your organization's growth, providing a long-term and future-proof data management solution.
